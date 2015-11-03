@@ -1,0 +1,15 @@
+0	1	mPAVR.exe -MSF -DBG -pATMEGA8 -Y -DL -SSA -O11111114 -fo8 -N"E:\AVR_PROJECT\Pascal\Project_2\LCDDriver.mppav" -SP"D:\Program_Files\Mikroelektronika\mikroPascal PRO for AVR\defs\" -SP"D:\Program_Files\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw\" -SP"E:\AVR_PROJECT\Pascal\Project_2\" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_String.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Time.mcl" "__Lib_Trigon.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC.mcl" "__Lib_EEPROM_eew.mcl" "__Lib_FLASH_rwe.mcl" "__Lib_PWM1_2_presc.mcl" "__Lib_PWM16bit_12.mcl" "__Lib_SPI_b5432_x2.mcl" "__Lib_TWI.mcl" "__Lib_UART_d01_ursel.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_TouchPanel.mcl" "LCDDriver.mpas"	 
+diagnostics: 0	133	Compilation Started	E:\AVR_PROJECT\Pascal\Project_2\LCDDriver.mpas
+hint: 1	1015	Hint: Compiling unit "E:\AVR_PROJECT\Pascal\Project_2\LCDDriver.mpas"	LCDDriver.mpas
+hint: 16	1001	Hint: Variable "dat" has been declared, but not used	LCDDriver.mpas
+hint: 29	1001	Hint: Variable "dat" has been declared, but not used	LCDDriver.mpas
+hint: 132	1010	Hint: Unit "LCDDriver.mpas" has been recompiled	LCDDriver.mpas
+diagnostics: 0	134	Compiled Successfully	E:\AVR_PROJECT\Pascal\Project_2\LCDDriver.mpas
+diagnostics: 0	139	All files Compiled in 31 ms	 
+hint: 0	1144	Used RX (bytes): 9 (28%)   Free RX (bytes): 23 (72%)	Used RX (bytes): 9 (28%)   Free RX (bytes): 23 (72%)
+hint: 0	1144	Static RAM (bytes): 0   Dynamic RAM (bytes): 1024	Static RAM (bytes): 0   Dynamic RAM (bytes): 1024
+hint: 0	1144	Used ROM (bytes): 328 (4%)  Free ROM (bytes): 7864 (96%)	Used ROM (bytes): 328 (4%)  Free ROM (bytes): 7864 (96%)
+diagnostics: 0	145	Project Linked Successfully	LCDDriver.mppav
+diagnostics: 0	140	Linked in 187 ms	 
+diagnostics: 0	141	Project 'LCDDriver.mppav' completed: 265 ms	 
+diagnostics: 0	103	Finished successfully: 17 θών 2012, 21:08:53	LCDDriver.mppav

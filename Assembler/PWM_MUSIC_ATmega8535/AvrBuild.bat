@@ -1,0 +1,2 @@
+@ECHO OFF
+"D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\avrasm2.exe" -S "E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\labels.tmp" -fI -W+ie -C V2E -o "E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.hex" -d "E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.obj" -e "E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.eep" -m "E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.map" "E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.asm"

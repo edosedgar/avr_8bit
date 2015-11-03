@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8</DEVICE>
+ <WORKING_DIR>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes\m8def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Digit><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>28</LINE></Digit>
+  <Count><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>29</LINE></Count>
+  <StartProgram><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>55</LINE></StartProgram>
+  <OnTimer1><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>133</LINE></OnTimer1>
+  <OnTimer0><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>101</LINE></OnTimer0>
+  <Main><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>76</LINE></Main>
+  <Decoder><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>202</LINE></Decoder>
+  <Delay><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>211</LINE></Delay>
+  <OutInterrupt><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>118</LINE></OutInterrupt>
+  <IncBeepTime><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>121</LINE></IncBeepTime>
+  <OnClickStop><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>165</LINE></OnClickStop>
+  <OnClickStart><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>155</LINE></OnClickStart>
+  <OnClickIncMin><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>182</LINE></OnClickIncMin>
+  <OnClickDecMin><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>192</LINE></OnClickDecMin>
+  <OutModule><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>130</LINE></OutModule>
+  <NormalizeDigit><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>229</LINE></NormalizeDigit>
+  <ResetTime><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>177</LINE></ResetTime>
+  <DcMatrix><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>222</LINE></DcMatrix>
+  <WGLOOP4><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>213</LINE></WGLOOP4>
+  <WGLOOP5><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>215</LINE></WGLOOP5>
+  <DecTens><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>237</LINE></DecTens>
+  <IncTens><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>245</LINE></IncTens>
+  <ExitModule><FILE>E:\AVR_PROJECT\Assembler\TimerRele\TimerRele\TimerRele.asm</FILE><LINE>253</LINE></ExitModule>
+ </LABELS>
+</ASSEMBLER_INFO>

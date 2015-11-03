@@ -1,0 +1,56 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8</DEVICE>
+ <WORKING_DIR>E:\AVR_PROJECT\Assembler\Protecter</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes\m8def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <StatusLeds1_8><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>24</LINE></StatusLeds1_8>
+  <StatusLeds9_16><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>25</LINE></StatusLeds9_16>
+  <StatusSiren><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>26</LINE></StatusSiren>
+  <StatusDetectorDoor1_8><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>27</LINE></StatusDetectorDoor1_8>
+  <StatusDetectorDoor9_13><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>28</LINE></StatusDetectorDoor9_13>
+  <StatusDetectorMove1_3><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>29</LINE></StatusDetectorMove1_3>
+  <IsReset><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>30</LINE></IsReset>
+  <StartProgram><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>57</LINE></StartProgram>
+  <OnTimer1><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>146</LINE></OnTimer1>
+  <OnTimer0><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>118</LINE></OnTimer0>
+  <OnADC><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>166</LINE></OnADC>
+  <Main><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>83</LINE></Main>
+  <ResetSystem><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>104</LINE></ResetSystem>
+  <SirenOn><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>114</LINE></SirenOn>
+  <OnLeds1_8><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>127</LINE></OnLeds1_8>
+  <OnLeds9_16><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>136</LINE></OnLeds9_16>
+  <IdentificationNumberInterval><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>172</LINE></IdentificationNumberInterval>
+  <Compare2><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>189</LINE></Compare2>
+  <ContinueCompare><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>176</LINE></ContinueCompare>
+  <Exit><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>186</LINE></Exit>
+  <GiveNumberButton><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>193</LINE></GiveNumberButton>
+  <Next1><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>199</LINE></Next1>
+  <Next2><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>204</LINE></Next2>
+  <Next3><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>209</LINE></Next3>
+  <Next4><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>214</LINE></Next4>
+  <Next5><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>219</LINE></Next5>
+  <Next6><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>224</LINE></Next6>
+  <Next7><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>229</LINE></Next7>
+  <Next8><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>234</LINE></Next8>
+  <Next9><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>239</LINE></Next9>
+  <Next10><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>244</LINE></Next10>
+  <Next11><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>249</LINE></Next11>
+  <Next12><FILE>E:\AVR_PROJECT\Assembler\Protecter\Protecter.asm</FILE><LINE>254</LINE></Next12>
+ </LABELS>
+</ASSEMBLER_INFO>

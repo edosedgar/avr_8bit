@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <InitSystem><FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.asm</FILE><LINE>36</LINE></InitSystem>
+  <Timer0><FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.asm</FILE><LINE>56</LINE></Timer0>
+  <ADCRead><FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.asm</FILE><LINE>60</LINE></ADCRead>
+  <main><FILE>E:\AVR_PROJECT\Assembler\PWM_MUSIC_ATmega8535\rgb.asm</FILE><LINE>52</LINE></main>
+ </LABELS>
+</ASSEMBLER_INFO>

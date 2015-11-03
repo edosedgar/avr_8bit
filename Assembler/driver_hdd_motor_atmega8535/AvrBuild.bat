@@ -1,0 +1,2 @@
+@ECHO OFF
+"D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\avrasm2.exe" -S "E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\labels.tmp" -fI -W+ie -C V2E -o "E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.hex" -d "E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.obj" -e "E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.eep" -m "E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.map" "E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm"

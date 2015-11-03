@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\PROJECT\meh_raz</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\PROJECT\meh_raz\meh_raz.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\PROJECT\meh_raz\meh_raz.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\PROJECT\meh_raz\meh_raz.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\PROJECT\meh_raz\meh_raz.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>36</LINE></RESET>
+  <init><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>37</LINE></init>
+  <start><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>43</LINE></start>
+  <delay><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>244</LINE></delay>
+  <BLUE_P><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>231</LINE></BLUE_P>
+  <CLR_P><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>226</LINE></CLR_P>
+  <delay2><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>257</LINE></delay2>
+  <RED_P><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>235</LINE></RED_P>
+  <GREEN_P><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>239</LINE></GREEN_P>
+  <WGLOOP4><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>246</LINE></WGLOOP4>
+  <WGLOOP5><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>247</LINE></WGLOOP5>
+  <WGLOOP0><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>259</LINE></WGLOOP0>
+  <WGLOOP1><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>260</LINE></WGLOOP1>
+  <invert_buffer><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>270</LINE></invert_buffer>
+  <cycle><FILE>D:\PROJECT\meh_raz\meh_raz.asm</FILE><LINE>272</LINE></cycle>
+ </LABELS>
+</ASSEMBLER_INFO>

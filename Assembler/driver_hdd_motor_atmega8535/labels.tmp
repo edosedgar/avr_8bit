@@ -1,0 +1,47 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>40</LINE></RESET>
+  <TIM1_OVF><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>69</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>64</LINE></TIM0_OVF>
+  <init><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>42</LINE></init>
+  <start><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>59</LINE></start>
+  <button_handler><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>128</LINE></button_handler>
+  <button_inc><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>118</LINE></button_inc>
+  <inc_high_reg><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>91</LINE></inc_high_reg>
+  <shift_phase><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>76</LINE></shift_phase>
+  <phase_1><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>95</LINE></phase_1>
+  <phase_2><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>98</LINE></phase_2>
+  <phase_3><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>101</LINE></phase_3>
+  <phase_4><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>104</LINE></phase_4>
+  <phase_5><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>107</LINE></phase_5>
+  <phase_6><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>110</LINE></phase_6>
+  <clear_counter><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>114</LINE></clear_counter>
+  <rst_button><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>143</LINE></rst_button>
+  <cycle><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>122</LINE></cycle>
+  <delay><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>147</LINE></delay>
+  <stop_timer0><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>135</LINE></stop_timer0>
+  <start_timer0><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>139</LINE></start_timer0>
+  <WGLOOP0><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>149</LINE></WGLOOP0>
+  <WGLOOP1><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>150</LINE></WGLOOP1>
+  <WGLOOP2><FILE>E:\AVR_PROJECT\Assembler\driver_hdd_motor_atmega8535\driver_hdd_motor.asm</FILE><LINE>151</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

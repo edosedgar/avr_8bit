@@ -1,0 +1,252 @@
+program LCDController;
+//CS =PORTB0
+//RES=PORTB1
+//RS =PORTC3
+//RW =PORTC4
+//E  =PORTC5
+procedure InitPortsIO;
+begin
+     DDRD :=%11111111;
+     DDRB :=%00010011;
+     DDRC :=%00111000;
+     PORTC:=%00000011;
+end;
+
+procedure WriteData(dat:byte);
+begin
+     asm
+        CBI PORTC,4
+        CBI PORTC,3
+        SBI PORTC,5
+        OUT PORTD,R2
+        CBI PORTC,5
+        SBI PORTB,0
+     end;
+     delay_us(1);
+end;
+
+procedure WriteCommand(dat:byte);
+begin
+     asm
+        CBI PORTB,0
+        CBI PORTC,4
+        SBI PORTC,3
+        SBI PORTC,5
+        OUT PORTD,R2
+        CBI PORTC,5
+     end;
+     delay_us(1);
+end;
+
+procedure SetByteAdrCursor(LowAdrByte,HighAdrByte:byte);
+begin
+     //low order address cursor
+     WriteCommand(%00001010);
+     WriteData(LowAdrByte);
+     //high order address cursor
+     WriteCommand(%00001011);
+     WriteData(HighAdrByte);
+end;
+
+procedure ClrScr;
+var
+   i:integer;
+begin
+     SetByteAdrCursor(0,0);
+     for i:=0 to 3840 do
+     begin
+          WriteCommand(%00001100);
+          WriteData(0);
+     end;
+     SetByteAdrCursor(0,0);
+end;
+
+procedure EnableLcd;
+begin
+     asm
+        SBI PORTB,1
+     end;
+end;
+
+procedure InitLC7981;
+begin
+     //Reset display
+       EnableLcd;
+     //1)Mode Control
+       WriteCommand(%00000000);
+       WriteData(%00110010);
+     //2)Set Character Pitch
+       WriteCommand(%00000001);
+       WriteData(%00000111);
+     //3)Set Number of Characters
+       WriteCommand(%00000010);
+       WriteData(%00011101);
+     //4)Set Number of Time Divisions (Inverse of Display Duty Ratio)
+       WriteCommand(%00000011);
+       WriteData(%01111111);
+     //5)Set Cursor Position
+       WriteCommand(%00000100);
+       WriteData(%00000000);
+     //6)Set Display Start Low Order Address
+       //Low order address
+       WriteCommand(%00001000);
+       WriteData(%00000000);
+       //high order address
+       WriteCommand(%00001001);
+       WriteData(%00000000);
+     //Clear Display
+       ClrScr;
+end;
+
+procedure InitSPI;
+begin
+     asm
+        SBI SPCR,6
+     end;
+end;
+
+procedure SPIOff;
+begin
+    asm
+        CBI SPCR,6
+    end;
+end;
+
+function ReadSPI():Byte;
+begin
+     asm
+     WaitReception:
+          ;Wait for reception complete
+          sbis SPSR,SPIF
+          rjmp WaitReception
+     end;
+     //Read received data and return
+     ReadSPI:=SPDR;
+end;
+
+procedure SetPixel(x,y,color:byte);
+var
+   AdrByte,AdrBit,LowAdrByte,HighAdrByte:word;
+begin
+   //Controller LC7981 has horizontal paint
+   AdrByte:=(30*(y-1))+((x-1) div 8);
+   AdrBit:=((x-1) mod 8);
+   LowAdrByte:=(AdrByte shl 8) shr 8;
+   HighAdrByte:=AdrByte shr 8;
+   SetByteAdrCursor(LowAdrByte,HighAdrByte);
+   //SetBit
+   case color of
+        0://white
+        begin
+             WriteCommand(%00001110);
+             WriteData(AdrBit);
+        end;
+        1://black
+        begin
+             WriteCommand(%00001111);
+             WriteData(AdrBit);
+        end;
+   end;
+end;
+
+procedure DrawRectangle(x1,y1,width,height,color:byte);
+var
+   i:byte;
+begin
+   for i:=x1 to x1+width-1 do SetPixel(i,y1,color);
+   for i:=y1 to y1+height-1 do SetPixel(x1+width-1,i,color);
+   for i:=x1+width-1 downto x1 do SetPixel(i,y1+height-1,color);
+   for i:=y1+height-1 downto y1 do SetPixel(x1,i,color);
+end;
+
+procedure DrawFillRectangle(x1,y1,width,height,color:byte);
+var
+   i,j:byte;
+begin
+        for i:=y1 to y1+height do
+        begin
+                for j:=x1 to x1+width do
+                begin
+                        SetPixel(j,i,color);
+                end;
+        end;
+end;
+{------------------------------------------------------------}
+procedure EndPaint;
+begin
+   asm
+      CBI PORTB,3
+      CBI DDRB,3
+   end;
+   InitSPI;
+end;
+procedure StartPaint;
+begin
+   SPIOff;
+   asm
+      SBI DDRB,3
+      SBI PORTB,3
+   end;
+end;
+var
+   SPIBuffer,SPIBuffer1,SPIBuffer2,SPIBuffer3,SPIBuffer4,SPIBuffer5:byte;
+   LCDBuffer: array [1..920] of Byte;
+begin
+     InitPortsIO;
+     InitLC7981;
+     LCDBuffer[1]:=45;
+     InitSPI;
+     while true do
+     begin
+          if PINB3_BIT=1 then
+          begin
+               SPIBuffer:=ReadSPI;
+               if SPIBuffer=0x66 then 
+               begin
+                    StartPaint;
+                    ClrScr;
+                    EndPaint;
+               end;
+               if SPIBuffer=0x55 then 
+               begin
+                    SPIBuffer1:=ReadSPI;
+                    SPIBuffer2:=ReadSPI;
+                    SPIBuffer3:=ReadSPI;
+                    SPIBuffer4:=ReadSPI;
+                    SPIBuffer5:=ReadSPI;
+                    StartPaint;
+                    DrawFillRectangle(SPIBuffer1,SPIBuffer2,SPIBuffer3,SPIBuffer4,SPIBuffer5);
+                    EndPaint;
+               end;
+               if SPIBuffer=0x44 then 
+               begin
+                    SPIBuffer1:=ReadSPI;
+                    SPIBuffer2:=ReadSPI;
+                    SPIBuffer3:=ReadSPI;
+                    SPIBuffer4:=ReadSPI;
+                    SPIBuffer5:=ReadSPI;
+                    StartPaint;
+                    DrawRectangle(SPIBuffer1,SPIBuffer2,SPIBuffer3,SPIBuffer4,SPIBuffer5);
+                    EndPaint;
+               end;
+               if SPIBuffer=0x33 then 
+               begin
+                    SPIBuffer1:=ReadSPI;
+                    SPIBuffer2:=ReadSPI;
+                    SPIBuffer3:=ReadSPI;
+                    StartPaint;
+                    SetPixel(SPIBuffer1,SPIBuffer2,SPIBuffer3);
+                    EndPaint;
+               end;
+               if SPIBuffer=0x22 then
+               begin
+                    SPIBuffer1:=ReadSPI;
+                    SPIBuffer2:=ReadSPI;
+                    StartPaint;
+                    WriteCommand(SPIBuffer1);
+                    WriteData(SPIBuffer2);
+                    EndPaint;
+               end;
+          end;
+     end;
+end.

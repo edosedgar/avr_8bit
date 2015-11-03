@@ -1,0 +1,2 @@
+@ECHO OFF
+"D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\avrasm2.exe" -S "E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\labels.tmp" -fI -W+ie -C V0E -o "E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.hex" -d "E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.obj" -e "E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.eep" -m "E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.map" "E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm"

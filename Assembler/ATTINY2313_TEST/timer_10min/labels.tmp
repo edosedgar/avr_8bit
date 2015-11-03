@@ -1,0 +1,42 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATtiny2313</DEVICE>
+ <WORKING_DIR>D:\PROJECT\deres\timer_10min</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\PROJECT\deres\timer_10min\timer_10min.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\PROJECT\deres\timer_10min\timer_10min.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\PROJECT\deres\timer_10min\timer_10min.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Number><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>24</LINE></Number>
+  <RESET><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>47</LINE></RESET>
+  <TIM1_OVF><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>89</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>109</LINE></TIM0_OVF>
+  <init><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>48</LINE></init>
+  <start><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>72</LINE></start>
+  <decoder><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>113</LINE></decoder>
+  <delay><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>140</LINE></delay>
+  <out_disp><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>168</LINE></out_disp>
+  <two><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>97</LINE></two>
+  <three><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>105</LINE></three>
+  <out_hello><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>174</LINE></out_hello>
+  <DcMatrix><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>127</LINE></DcMatrix>
+  <WGLOOP4><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>143</LINE></WGLOOP4>
+  <WGLOOP5><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>144</LINE></WGLOOP5>
+  <zader><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>154</LINE></zader>
+  <WGLOOP0><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>157</LINE></WGLOOP0>
+  <WGLOOP1><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>158</LINE></WGLOOP1>
+  <WGLOOP2><FILE>D:\PROJECT\deres\timer_10min\timer_10min.asm</FILE><LINE>159</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

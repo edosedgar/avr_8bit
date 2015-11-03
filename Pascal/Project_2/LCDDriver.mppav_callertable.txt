@@ -1,0 +1,13 @@
+main
+	InitPortsIO
+	InitLC7981
+		EnableLcd
+		WriteCommand
+		WriteData
+		SetByteAdrCursor
+			WriteCommand
+			WriteData
+	InitSPI
+	ReadSPI
+	WriteCommand
+	WriteData

@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\PROJECT\sound</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\PROJECT\sound\sound.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\PROJECT\sound\sound.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\PROJECT\sound\sound.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\PROJECT\sound\sound.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>D:\PROJECT\sound\sound.asm</FILE><LINE>34</LINE></init>
+  <TIM1_OVF><FILE>D:\PROJECT\sound\sound.asm</FILE><LINE>51</LINE></TIM1_OVF>
+  <frequency><FILE>D:\PROJECT\sound\sound.asm</FILE><LINE>77</LINE></frequency>
+  <start><FILE>D:\PROJECT\sound\sound.asm</FILE><LINE>47</LINE></start>
+  <clear_and_get_value_frequency><FILE>D:\PROJECT\sound\sound.asm</FILE><LINE>70</LINE></clear_and_get_value_frequency>
+  <get_value_frequency><FILE>D:\PROJECT\sound\sound.asm</FILE><LINE>60</LINE></get_value_frequency>
+  <stop_timer><FILE>D:\PROJECT\sound\sound.asm</FILE><LINE>74</LINE></stop_timer>
+ </LABELS>
+</ASSEMBLER_INFO>

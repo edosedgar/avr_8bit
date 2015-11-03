@@ -1,0 +1,26 @@
+0	1	mPAVR.exe -MSF -DBG -pATMEGA8 -Y -DL -SSA -O11111114 -fo8 -N"E:\AVR_PROJECT\Pascal\Project_1\LC7981_ATmega8.mppav" -SP"D:\Program_Files\Mikroelektronika\mikroPascal PRO for AVR\defs\" -SP"D:\Program_Files\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw\" -SP"E:\AVR_PROJECT\Pascal\Project_1\" -SP"F:\Mikroelektronika\mikroPascal PRO for AVR\defs\" -SP"F:\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw\" -SP"D:\MyDocument\Document\Programming\AVR_PROJECT\Pascal\Project_1\" -SP"D:\My document\Document\Programming\AVR_PROJECT\Pascal\Project_1\" -SP"C:\Users\AdminEdgar\Desktop\Mikroelektronika\mikroPascal PRO for AVR\defs\" -SP"C:\Users\AdminEdgar\Desktop\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw\" -SP"F:\Saved\Mikroelektronika\mikroPascal PRO for AVR\defs\" -SP"F:\Saved\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw\" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_String.mcl" "__Lib_Conversions.mcl" "__Lib_Time.mcl" "__Lib_Trigon.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC.mcl" "__Lib_EEPROM_eew.mcl" "__Lib_FLASH_rwe.mcl" "__Lib_PWM1_2_presc.mcl" "__Lib_PWM16bit_12.mcl" "__Lib_SPI_b5432_x2.mcl" "__Lib_TWI.mcl" "__Lib_UART_d01_ursel.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_TouchPanel.mcl" "LC7981_ATmega8.mpas"	 
+warning: 0	1501	Specified search path does not exist: 'F:\Mikroelektronika\mikroPascal PRO for AVR\defs'	 
+warning: 0	1501	Specified search path does not exist: 'F:\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw'	 
+warning: 0	1501	Specified search path does not exist: 'D:\MyDocument\Document\Programming\AVR_PROJECT\Pascal\Project_1'	 
+warning: 0	1501	Specified search path does not exist: 'D:\My document\Document\Programming\AVR_PROJECT\Pascal\Project_1'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\AdminEdgar\Desktop\Mikroelektronika\mikroPascal PRO for AVR\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\AdminEdgar\Desktop\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw'	 
+warning: 0	1501	Specified search path does not exist: 'F:\Saved\Mikroelektronika\mikroPascal PRO for AVR\defs'	 
+warning: 0	1501	Specified search path does not exist: 'F:\Saved\Mikroelektronika\mikroPascal PRO for AVR\uses\lte64kw'	 
+diagnostics: 0	133	Compilation Started	E:\AVR_PROJECT\Pascal\Project_1\LC7981_ATmega8.mpas
+hint: 1	1015	Hint: Compiling unit "E:\AVR_PROJECT\Pascal\Project_1\LC7981_ATmega8.mpas"	LC7981_ATmega8.mpas
+hint: 15	1001	Hint: Variable "dat" has been declared, but not used	LC7981_ATmega8.mpas
+hint: 28	1001	Hint: Variable "dat" has been declared, but not used	LC7981_ATmega8.mpas
+hint: 129	1011	Hint: Variable "AdrByte" has been eliminated by optimizer	LC7981_ATmega8.mpas
+hint: 129	1011	Hint: Variable "LowAdrByte" has been eliminated by optimizer	LC7981_ATmega8.mpas
+hint: 129	1011	Hint: Variable "HighAdrByte" has been eliminated by optimizer	LC7981_ATmega8.mpas
+hint: 252	1010	Hint: Unit "LC7981_ATmega8.mpas" has been recompiled	LC7981_ATmega8.mpas
+diagnostics: 0	134	Compiled Successfully	E:\AVR_PROJECT\Pascal\Project_1\LC7981_ATmega8.mpas
+diagnostics: 0	139	All files Compiled in 62 ms	 
+hint: 0	1144	Used RX (bytes): 13 (41%)   Free RX (bytes): 19 (59%)	Used RX (bytes): 13 (41%)   Free RX (bytes): 19 (59%)
+hint: 0	1144	Static RAM (bytes): 926   Dynamic RAM (bytes): 98	Static RAM (bytes): 926   Dynamic RAM (bytes): 98
+hint: 0	1144	Used ROM (bytes): 1078 (13%)  Free ROM (bytes): 7114 (87%)	Used ROM (bytes): 1078 (13%)  Free ROM (bytes): 7114 (87%)
+diagnostics: 0	145	Project Linked Successfully	LC7981_ATmega8.mppav
+diagnostics: 0	140	Linked in 203 ms	 
+diagnostics: 0	141	Project 'LC7981_ATmega8.mppav' completed: 328 ms	 
+diagnostics: 0	103	Finished successfully: 04 θών 2012, 18:32:16	LC7981_ATmega8.mppav

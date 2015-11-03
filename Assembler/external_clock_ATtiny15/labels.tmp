@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATtiny15</DEVICE>
+ <WORKING_DIR>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes\tn15def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <SystemInit><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>19</LINE></SystemInit>
+  <EXT_INT0><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>47</LINE></EXT_INT0>
+  <TIM0_OVF><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>38</LINE></TIM0_OVF>
+  <Main><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>34</LINE></Main>
+  <SetLed><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>43</LINE></SetLed>
+  <Step1><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>62</LINE></Step1>
+  <Step2><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>68</LINE></Step2>
+  <Step3><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>74</LINE></Step3>
+  <Step4><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>79</LINE></Step4>
+  <Step5><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>85</LINE></Step5>
+  <Step6><FILE>E:\AVR_PROJECT\Assembler\external_clock_ATtiny15\tn15.asm</FILE><LINE>91</LINE></Step6>
+ </LABELS>
+</ASSEMBLER_INFO>

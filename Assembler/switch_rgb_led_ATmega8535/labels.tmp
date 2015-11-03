@@ -1,0 +1,39 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\PROJECT\switch_rgb_led</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>38</LINE></RESET>
+  <init><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>39</LINE></init>
+  <blue_red><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>46</LINE></blue_red>
+  <cycle_for_freq_led1_2><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>48</LINE></cycle_for_freq_led1_2>
+  <delay><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>122</LINE></delay>
+  <delay_100ms><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>128</LINE></delay_100ms>
+  <red_green><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>71</LINE></red_green>
+  <cycle_for_freq_led2_3><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>73</LINE></cycle_for_freq_led2_3>
+  <green_blue><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>96</LINE></green_blue>
+  <cycle_for_freq_led3_1><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>98</LINE></cycle_for_freq_led3_1>
+  <delay_1ms><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>144</LINE></delay_1ms>
+  <WGLOOP0><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>130</LINE></WGLOOP0>
+  <WGLOOP1><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>131</LINE></WGLOOP1>
+  <WGLOOP2><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>132</LINE></WGLOOP2>
+  <WGLOOP3><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>141</LINE></WGLOOP3>
+  <WGLOOP4><FILE>D:\PROJECT\switch_rgb_led\switch_rgb_led.asm</FILE><LINE>146</LINE></WGLOOP4>
+ </LABELS>
+</ASSEMBLER_INFO>

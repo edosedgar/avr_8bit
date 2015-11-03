@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8</DEVICE>
+ <WORKING_DIR>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:\Program_Files\Atmel\AVR Studio 4\AvrAssembler2\Appnotes\m8def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <StartProgram><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>75</LINE></StartProgram>
+  <Main><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>83</LINE></Main>
+  <ClickOnLeg><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>93</LINE></ClickOnLeg>
+  <ClickOnBody><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>133</LINE></ClickOnBody>
+  <ClickOnHand><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>155</LINE></ClickOnHand>
+  <Delay500ms><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>205</LINE></Delay500ms>
+  <BrainHandlerSignal><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>189</LINE></BrainHandlerSignal>
+  <Delay100ms><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>193</LINE></Delay100ms>
+  <WGLOOP4><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>195</LINE></WGLOOP4>
+  <WGLOOP5><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>196</LINE></WGLOOP5>
+  <WGLOOP6><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>197</LINE></WGLOOP6>
+  <WGLOOP0><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>207</LINE></WGLOOP0>
+  <WGLOOP1><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>208</LINE></WGLOOP1>
+  <WGLOOP2><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>209</LINE></WGLOOP2>
+  <WGLOOP3><FILE>E:\AVR_PROJECT\Assembler\LedPeopleProgramm\LedPeople\LedPeople.asm</FILE><LINE>218</LINE></WGLOOP3>
+ </LABELS>
+</ASSEMBLER_INFO>
